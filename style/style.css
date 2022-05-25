@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.brand-color{
+    background-color: grey;
+    color: white;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#brand-image{
+    width: 75px;
+}
+
+#socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#specials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#splash{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 85vh;
+}
+
+.buttons{
+    height: 50px;
+    width: 100px;
+    border-style: none;
+    border-radius: 1em;
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 3em;
+    margin: 5px;
+}
+
+.content-container{
+    width: 75vw;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.social-media-icon{
+    width: 75px;
+    margin: 3em;
+}
+
+.brand-text{
+    font-size: 28px;
+}
+
+.brand-sub-text{
+    font-size: 20px;
+
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-item-price{
+    align-self: flex-end;
+}
